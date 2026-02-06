@@ -34,18 +34,7 @@ export default function WhyChooseSection() {
       <div className="absolute top-0 left-1/4 w-[300px] h-[300px] bg-[var(--accent)] opacity-20 rounded-full -z-10 animate-bounce-slow" />
       <div className="absolute bottom-0 right-1/4 w-[200px] h-[200px] bg-[var(--accent)] opacity-15 rounded-full -z-10 animate-bounce-slow" />
 
-      {/* === Floating Icons === */}
-      <motion.div
-        className="absolute top-10 left-10 text-[var(--accent)] text-2xl"
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 4, repeat: Infinity }}
-      >📷</motion.div>
-
-      <motion.div
-        className="absolute top-32 right-20 text-[var(--accent)] text-2xl"
-        animate={{ y: [0, -10, 0] }}
-        transition={{ duration: 3.5, repeat: Infinity }}
-      >✨</motion.div>
+     
 
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
 
@@ -58,8 +47,9 @@ export default function WhyChooseSection() {
           </h2>
 
           <p className="mt-8 text-[var(--background)] text-lg max-w-md">
-            <AnimatedWords text="We capture not just moments, but the emotions behind them. Our approach ensures every memory is preserved with care, creativity, and passion." />
-          </p>
+  <AnimatedWords text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+</p>
+
 
           {/* Features */}
           <div className="mt-10 flex flex-col gap-6 text-[var(--background)]">
@@ -71,7 +61,8 @@ export default function WhyChooseSection() {
               className="flex items-start gap-4"
             >
               <div className="text-[var(--accent)] font-bold text-2xl">✔</div>
-              <p>Personalized sessions tailored to your story.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
             </motion.div>
 
             <motion.div
@@ -82,7 +73,8 @@ export default function WhyChooseSection() {
               className="flex items-start gap-4"
             >
               <div className="text-[var(--accent)] font-bold text-2xl">✔</div>
-              <p>High-quality, cinematic style photography.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
             </motion.div>
 
             <motion.div
@@ -93,7 +85,8 @@ export default function WhyChooseSection() {
               className="flex items-start gap-4"
             >
               <div className="text-[var(--accent)] font-bold text-2xl">✔</div>
-              <p>Passionate team with years of experience.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
             </motion.div>
           </div>
         </motion.div>

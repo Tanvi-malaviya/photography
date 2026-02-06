@@ -1,5 +1,6 @@
 
 import ArtStorySection from "../../components/home/ArtStorySection";
+import CallToActionSection from "../../components/home/CallToActionSection";
 import FeaturedWork from "../../components/home/FeaturedWork";
 import HeroCinematic from "../../components/home/HeroSection";
 import HeroSection from "../../components/home/HeroSection";
@@ -21,6 +22,7 @@ export default function Home() {
   <OurApproach />
   <PortfolioSection />
   <TestimonialSection />
+  <CallToActionSection />
 
     </>
   );

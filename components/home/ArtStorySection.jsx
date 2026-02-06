@@ -48,9 +48,9 @@ export default function ArtStorySection() {
             <AnimatedWords text="Storytelling" className="text-[var(--accent)] block" />
           </h2>
 
-          <p className="mt-8 text-[var(--text-secondary)] text-lg max-w-md">
-            <AnimatedWords text="Every photograph is more than a frame — it’s a preserved emotion, a frozen breath, a timeless memory crafted with intention and light." />
-          </p>
+        <p className="mt-8 text-[var(--text-secondary)] text-lg max-w-md">
+  <AnimatedWords text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+</p>
 
           {/* Stats */}
           <div className="mt-10 flex gap-10 text-sm uppercase tracking-widest">
