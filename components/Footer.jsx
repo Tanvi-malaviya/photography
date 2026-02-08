@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Instagram, Facebook, Twitter } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -14,19 +15,46 @@ export default function Footer() {
 
           {/* Brand */}
           <div>
-            <h2 className="text-2xl tracking-[0.3em] font-light mb-6">
-              LENSCRAFT
-            </h2>
+
+            {/* LOGO */}
+            <Link href="/" className="flex items-center gap-3 mb-6">
+
+              {/* Icon */}
+              <Image
+                src="/logo1.png"
+                alt="Lenscraft Logo"
+                width={36}
+                height={36}
+                className="object-contain"
+              />
+
+              {/* Text */}
+              <span
+                className="
+        font-[var(--font-bebas-neue)]
+        text-2xl
+        tracking-[0.3em]
+        uppercase
+        text-black
+        leading-none
+      "
+              >
+                LENSCRAFT
+              </span>
+
+            </Link>
+
             <p className="text-sm text-black/60 leading-relaxed mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
+
             <p className="text-sm text-black/60 leading-relaxed">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco
               laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-          </div>
 
+          </div>
           {/* Navigation */}
           <div>
             <h3 className="text-sm tracking-widest uppercase mb-6">

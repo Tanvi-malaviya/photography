@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
+import Image from 'next/image'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -18,19 +19,41 @@ export default function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
 
-        {/* LOGO */}
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-        >
-          <Link
-            href="/"
-            className="font-[var(--font-bebas-neue)] text-3xl tracking-[0.3em] uppercase text-black"
-          >
-            LENSCRAFT
-          </Link>
-        </motion.div>
+       {/* LOGO */}
+{/* LOGO */}
+<motion.div
+  initial={{ opacity: 0, y: -20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+>
+  <Link href="/" className="flex items-center gap-3">
+
+    {/* Icon */}
+    <Image
+      src="/logo1.png"          // camera icon image
+      alt="Lenscraft Logo"
+      width={38}
+      height={38}
+      priority
+      className="object-contain"
+    />
+
+    {/* Text */}
+    <span
+      className="
+        font-[var(--font-bebas-neue)]
+        text-2xl sm:text-3xl
+        tracking-[0.35em]
+        uppercase
+        text-black
+        leading-none
+      "
+    >
+      LENSCRAFT
+    </span>
+
+  </Link>
+</motion.div>
 
         {/* DESKTOP MENU */}
         <div className="hidden md:flex gap-12 text-xs tracking-[0.25em] uppercase">
