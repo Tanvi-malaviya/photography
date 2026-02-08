@@ -6,11 +6,11 @@ import { Instagram, Facebook, Twitter } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[color:var(--color-surface)] border-t border-black/10 ">
+    <footer className="bg-[color:var(--color-surface)] border-t border-black/10">
       <div className="max-w-7xl mx-auto px-6 py-20">
 
         {/* Top Grid */}
-        <div className="grid md:grid-cols-4 gap-12">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4 text-center md:text-left">
 
           {/* Brand */}
           <div>
@@ -18,11 +18,11 @@ export default function Footer() {
               LENSCRAFT
             </h2>
             <p className="text-sm text-black/60 leading-relaxed mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <p className="text-sm text-black/60 leading-relaxed">
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco
               laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
@@ -33,14 +33,12 @@ export default function Footer() {
               Navigation
             </h3>
             <ul className="space-y-3 text-sm text-black/70">
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/portfolio">Portfolio</Link></li>
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/services">Services</Link></li>
-              <li><Link href="/contact">Contact</Link></li>
+              <li><Link className="hover:text-black transition" href="/">Home</Link></li>
+              <li><Link className="hover:text-black transition" href="/portfolio">Portfolio</Link></li>
+              <li><Link className="hover:text-black transition" href="/about">About</Link></li>
+              <li><Link className="hover:text-black transition" href="/services">Services</Link></li>
+              <li><Link className="hover:text-black transition" href="/contact">Contact</Link></li>
             </ul>
-
-          
           </div>
 
           {/* Services */}
@@ -48,14 +46,12 @@ export default function Footer() {
             <h3 className="text-sm tracking-widest uppercase mb-6">
               Services
             </h3>
-            <ul className="space-y-3 text-sm text-black/70 mb-6">
+            <ul className="space-y-3 text-sm text-black/70">
               <li>Wedding Photography</li>
               <li>Portrait Sessions</li>
               <li>Commercial Shoots</li>
               <li>Event Coverage</li>
             </ul>
-
-           
           </div>
 
           {/* Social */}
@@ -64,32 +60,35 @@ export default function Footer() {
               Follow
             </h3>
 
-            <div className="flex gap-5 mb-6">
+            <div className="flex justify-center md:justify-start gap-5 mb-6">
               {[Instagram, Facebook, Twitter].map((Icon, i) => (
                 <motion.div
                   key={i}
                   whileHover={{ y: -3 }}
                   className="cursor-pointer"
                 >
-                  <Icon size={18} className="text-black/70 hover:text-black transition" />
+                  <Icon
+                    size={18}
+                    className="text-black/70 hover:text-black transition"
+                  />
                 </motion.div>
               ))}
             </div>
 
-            <p className="text-sm text-black/60 leading-relaxed">
+            <p className="text-sm text-black/60 leading-relaxed break-words">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <br />
               info@lenscraft.com
             </p>
           </div>
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-black/10 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center text-xs tracking-wider text-black/50 gap-4">
+        <div className="border-t border-black/10 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center text-xs tracking-wider text-black/50 gap-4 text-center md:text-left">
           <p>© {new Date().getFullYear()} LENSCRAFT. All rights reserved.</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+
       </div>
     </footer>
   );

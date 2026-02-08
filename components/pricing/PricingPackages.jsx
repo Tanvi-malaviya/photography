@@ -6,7 +6,7 @@ const packages = [
   {
     title: "Wedding Stories",
     price: "Starting from ₹75,000",
-    desc: "Full-day storytelling with emotion-focused coverage.",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     points: [
       "Pre-wedding consultation",
       "Full day coverage",
@@ -17,7 +17,7 @@ const packages = [
   {
     title: "Pre-Wedding",
     price: "Starting from ₹25,000",
-    desc: "Cinematic couple storytelling at meaningful locations.",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     points: [
       "Location & outfit guidance",
       "2–3 hour shoot",
@@ -28,7 +28,7 @@ const packages = [
   {
     title: "Portraits",
     price: "Starting from ₹12,000",
-    desc: "Natural light portraits that feel effortless.",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     points: [
       "Studio or outdoor shoot",
       "Relaxed direction",

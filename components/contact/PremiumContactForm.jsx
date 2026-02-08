@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 export default function PremiumContactForm() {
   return (
-    <section className="relative bg-white py-16 overflow-hidden">
+    <section className="relative bg-white py-14 sm:py-20 overflow-hidden">
       
       {/* SUBTLE BACKGROUND ACCENT */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white -z-10" />
 
-      <div className="max-w-5xl mx-auto px-6">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-10">
 
         {/* SECTION INTRO */}
         <motion.div
@@ -17,19 +17,21 @@ export default function PremiumContactForm() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-20"
+          className="text-center mb-14 sm:mb-20"
         >
-          <p className="uppercase tracking-[0.35em] text-xs text-gray-400 mb-1">
+          <p className="uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[10px] sm:text-xs text-gray-400 mb-2">
             Get In Touch
           </p>
 
-          <h2 className="text-5xl md:text-6xl font-bold text-black leading-tight">
-            Tell us about  your story
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-black leading-tight">
+            Tell us about <br className="sm:hidden" /> your story
           </h2>
 
-          <p className="mt-2 text-gray-600 max-w-xl mx-auto text-lg">
-            A few thoughtful details help us understand your vision and
-            create something truly personal.
+          <p className="mt-4 text-gray-600 max-w-md sm:max-w-lg mx-auto text-base sm:text-lg leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat.
           </p>
         </motion.div>
 
@@ -39,7 +41,7 @@ export default function PremiumContactForm() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1 }}
-          className="grid md:grid-cols-2 gap-12"
+          className="grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-12"
         >
 
           {/* NAME */}
@@ -62,23 +64,24 @@ export default function PremiumContactForm() {
               placeholder="Tell us more about your vision..."
               className="
                 w-full border-b border-gray-300 bg-transparent 
-                py-4 text-lg outline-none
+                py-4 text-base sm:text-lg outline-none
                 focus:border-black transition
                 placeholder:text-gray-400
+                resize-none
               "
             />
           </div>
 
           {/* CTA */}
-          <div className="md:col-span-2  text-center">
+          <div className="md:col-span-2 text-center">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="
-                relative px-14 py-5 
+                relative px-10 sm:px-14 py-4 sm:py-5
                 border border-black 
                 rounded-full 
-                text-lg font-medium
+                text-base sm:text-lg font-medium
                 text-black
                 overflow-hidden
                 group
@@ -92,7 +95,7 @@ export default function PremiumContactForm() {
               </span>
             </motion.button>
 
-            <p className="mt-6 text-sm text-gray-400">
+            <p className="mt-5 sm:mt-6 text-xs sm:text-sm text-gray-400">
               We usually respond within 24–48 hours.
             </p>
           </div>
@@ -117,7 +120,7 @@ function InputField({ label, type }) {
         placeholder=" "
         className="
           peer w-full bg-transparent border-b border-gray-300 
-          py-4 text-lg outline-none
+          py-4 text-base sm:text-lg outline-none
           focus:border-black transition
         "
       />
@@ -125,7 +128,7 @@ function InputField({ label, type }) {
       <label
         className="
           absolute left-0 top-1/2 -translate-y-1/2
-          text-gray-400 text-lg
+          text-gray-400 text-base sm:text-lg
           pointer-events-none
           transition-all duration-300
           peer-focus:top-0 peer-focus:text-sm peer-focus:text-black

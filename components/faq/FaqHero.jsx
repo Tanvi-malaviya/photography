@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function FaqHero() {
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-[color:var(--color-surface)] px-6">
+    <section className="relative min-h-[95vh] flex items-center justify-center overflow-hidden bg-[color:var(--color-surface)] px-6">
 
   
 
@@ -44,8 +44,7 @@ export default function FaqHero() {
           transition={{ delay: 0.6 }}
           className="mt-6 text-lg text-black/60 max-w-2xl mx-auto"
         >
-          Everything you need to know about bookings, pricing, sessions,
-          deliveries, and the overall photography experience.
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         </motion.p>
 
         {/* CTA */}

@@ -40,9 +40,7 @@ export default function StoryBehindTheFrames() {
 
           {/* Description */}
           <p className="mt-6 text-lg text-black/60 max-w-xl">
-            I don’t believe in forcing poses or creating fake moments.
-            I observe, I wait, and I capture what feels real — the quiet smiles,
-            the nervous laughter, and the moments you didn’t know were happening.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. — Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
 
           {/* CTA */}

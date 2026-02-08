@@ -53,7 +53,7 @@ export default function GalleryGrid() {
   }, [lightboxIndex, filtered.length]);
 
   return (
-    <section className="relative py-32 bg-white px-6">
+    <section className="relative py-16 bg-white px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* ---------------- FILTER ---------------- */}

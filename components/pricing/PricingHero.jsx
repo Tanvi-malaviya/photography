@@ -34,8 +34,7 @@ export function PricingHero() {
           transition={{ delay: 0.4 }}
           className="mt-8 text-lg text-black/60 max-w-2xl mx-auto"
         >
-          I don’t sell hours or photos — I craft experiences.
-          Pricing depends on your moments, location, and vision.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </motion.p>
       </div>
     </section>

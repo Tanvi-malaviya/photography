@@ -7,31 +7,31 @@ const faqs = [
   {
     question: "How far in advance should I book my photoshoot?",
     answer:
-      "I recommend booking at least 2–4 weeks in advance. For weddings and events, early booking ensures availability on your preferred date.",
+      " Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   
   },
   {
     question: "Do you help with posing during the session?",
     answer:
-      "Absolutely. I guide you throughout the session with natural prompts and poses so you feel relaxed and confident in front of the camera.",
+           " Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   
   },
   {
     question: "How many photos will I receive?",
     answer:
-      "The number of final images depends on your selected package, but every delivered photo is carefully curated and professionally edited.",
+           " Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   
   },
   {
     question: "What is your photo delivery timeline?",
     answer:
-      "Edited images are typically delivered within 7–14 days via a private online gallery for easy viewing and download.",
+           " Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
    
   },
   {
     question: "Can I reschedule if something comes up?",
     answer:
-      "Yes, rescheduling is possible with prior notice. I always try to be flexible and accommodating whenever possible.",
+           " Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
    
   },
 ];

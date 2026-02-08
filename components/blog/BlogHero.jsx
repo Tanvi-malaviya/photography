@@ -47,8 +47,9 @@ export default function BlogHeroAlt() {
             transition={{ duration: 0.9, delay: 1.3 }}
             className="mt-8 text-lg text-gray-600 max-w-md leading-relaxed"
           >
-            Not just photographs — but the spaces, silences,
-            and emotions that live between each frame.
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            
           </motion.p>
 
         </div>

@@ -25,8 +25,7 @@ export default function GalleryHero() {
         ))}
       </div>
 
-      {/* Grain Overlay (premium feel) */}
-      <div className="pointer-events-none absolute inset-0 bg-[url('/grain.png')] opacity-[0.05]" />
+     
 
       {/* Main Content */}
       <motion.div
@@ -58,8 +57,7 @@ export default function GalleryHero() {
           transition={{ delay: 0.5 }}
           className="mt-8 max-w-2xl mx-auto text-lg text-black/60"
         >
-          A curated collection of moments, emotions, and stories captured
-          across weddings, portraits, fashion, and travel.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </motion.p>
 
       

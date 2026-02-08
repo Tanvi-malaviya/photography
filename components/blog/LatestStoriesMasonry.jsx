@@ -39,7 +39,7 @@ const stories = [
 
 export default function LatestStoriesEditorial() {
   return (
-    <section className="bg-white py-28 lg:py-32 overflow-hidden">
+    <section className="bg-white py-14 lg:py-16 overflow-hidden">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* INTRO */}

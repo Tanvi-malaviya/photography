@@ -5,19 +5,23 @@ import { motion } from "framer-motion";
 const styles = [
     {
         title: "Emotion Over Poses",
-        desc: "We never interrupt a moment to create one. What you feel matters more than how you look.",
+           desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+
     },
     {
         title: "Cinematic Light",
-        desc: "Natural light shaped with intention — inspired by cinema, not trends.",
+          desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+
     },
     {
         title: "Timeless Color",
-        desc: "Subtle tones, refined contrast, and palettes that age beautifully with time.",
+          desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+
     },
     {
         title: "Human Connection",
-        desc: "We blend in quietly so real emotions can surface without awareness of the camera.",
+          desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+
     },
 ];
 

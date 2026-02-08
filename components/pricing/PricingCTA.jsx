@@ -8,7 +8,7 @@ export function PricingCTA() {
       </h2>
 
       <p className="mt-4 text-lg text-black/60">
-        Let’s talk about your story and create something personal.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
       </p>
 
       <Link

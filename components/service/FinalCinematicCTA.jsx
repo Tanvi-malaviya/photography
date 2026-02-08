@@ -75,9 +75,10 @@ export default function KineticEditorialCTA() {
             mt-10 text-lg text-gray-600 max-w-xl leading-relaxed
           "
         >
-          When the day has passed and the noise has faded,
-          what remains are images that carry emotion —
-          quietly, honestly, forever.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat.
         </motion.p>
 
         {/* CTA */}

@@ -27,7 +27,7 @@ export default function ImmersiveServicesHero() {
       </motion.div>
 
       {/* FILM GRAIN / NOISE */}
-      <div className="pointer-events-none absolute inset-0 opacity-[0.03] bg-[url('/noise.png')]" />
+      {/* <div className="pointer-events-none absolute inset-0 opacity-[0.03] bg-[url('/noise.png')]" /> */}
 
       {/* CONTENT */}
       <div className="relative z-10 max-w-7xl mx-auto px-6">
@@ -58,8 +58,9 @@ export default function ImmersiveServicesHero() {
           transition={{ delay: 1.3, duration: 0.8 }}
           className="mt-10 text-lg text-black max-w-xl leading-relaxed"
         >
-          From intimate weddings to cinematic brand narratives —
-          every frame is composed with intention, emotion, and restraint.
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+           
         </motion.p>
 
     

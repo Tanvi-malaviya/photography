@@ -10,19 +10,22 @@ const steps = [
   },
   {
     title: "Intentional Planning",
-    desc: "Every detail is planned with purpose — lighting, locations, timing, and visual rhythm.",
+   desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
   },
   {
     title: "Cinematic Capture",
-    desc: "A calm, guided experience where authentic moments unfold naturally in front of our lens.",
+      desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+
   },
   {
     title: "Refined Editing",
-    desc: "Each image is carefully color-graded and polished to feel timeless, not trendy.",
+       desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+
   },
   {
     title: "Curated Delivery",
-    desc: "Your story is delivered as a beautifully crafted gallery — elegant, emotional, and lasting.",
+      desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+
   },
 ];
 
@@ -55,8 +58,10 @@ export default function HowWeWorkCinematic() {
           </h2>
 
           <p className="mt-8 text-gray-600 max-w-md text-lg leading-relaxed">
-            Our approach blends emotional storytelling with precision —
-            creating imagery that feels honest, intentional, and timeless.
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat.
           </p>
         </div>
 

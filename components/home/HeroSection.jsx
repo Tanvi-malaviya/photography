@@ -221,10 +221,7 @@ export default function HeroCinematic() {
       {/* DARK OVERLAY */}
       <div className="absolute inset-0 bg-black/40" />
 
-      {/* FILM GRAIN */}
-      <div className="pointer-events-none absolute inset-0 opacity-20 mix-blend-overlay">
-        <div className="w-full h-full bg-[url('/grain.png')] animate-[grainMove_8s_steps(10)_infinite]" />
-      </div>
+    
 
       {/* TEXT CONTENT */}
       <div className="relative z-20 min-h-screen flex items-center justify-center text-center px-6">

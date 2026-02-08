@@ -7,22 +7,22 @@ import { useRef } from "react";
 const services = [
   {
     title: "Wedding Photography",
-    desc: "An emotional documentary of rituals, relationships, and fleeting moments — captured with timeless elegance.",
+    desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: "/homehero.jpg",
   },
   {
     title: "Pre-Wedding Stories",
-    desc: "Intimate cinematic sessions designed around connection, movement, and natural chemistry.",
+    desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: "/homehero.jpg",
   },
   {
     title: "Brand & Commercial",
-    desc: "Purpose-driven visuals that communicate identity, detail, and premium brand language.",
+    desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: "/homehero.jpg",
   },
   {
     title: "Portrait Sessions",
-    desc: "Editorial-style portraits that reflect personality, mood, and quiet confidence.",
+    desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: "/homehero.jpg",
   },
 ];
@@ -91,12 +91,12 @@ function Chapter({ service, index }) {
             Crafted with intention, light, and honest emotion.
           </p>
 
-          <div className="mt-10 flex items-center gap-6">
+          {/* <div className="mt-10 flex items-center gap-6">
             <span className="text-xs uppercase tracking-widest text-gray-400">
               Explore Story
             </span>
             <span className="w-14 h-[1px] bg-black" />
-          </div>
+          </div> */}
         </motion.div>
 
         {/* IMAGE */}

@@ -6,22 +6,22 @@ const steps = [
   {
     number: "01",
     title: "We Receive Your Story",
-    desc: "Your inquiry arrives with your vision, dates, and expectations — the foundation of everything that follows."
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
     number: "02",
     title: "A Personal Conversation",
-    desc: "We connect one-on-one to understand emotions, priorities, and how you want your story to feel."
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
     number: "03",
     title: "A Thoughtful Proposal",
-    desc: "We curate a photography experience tailored specifically to you — never generic, never rushed."
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
     number: "04",
     title: "The Journey Begins",
-    desc: "Once aligned, we plan every detail calmly and intentionally to create timeless imagery together."
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   }
 ];
 
