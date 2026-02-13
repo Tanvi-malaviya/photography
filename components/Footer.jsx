@@ -21,7 +21,7 @@ export default function Footer() {
 
               {/* Icon */}
               <Image
-                src="/logo1.png"
+                src="/icon.png"
                 alt="Lenscraft Logo"
                 width={36}
                 height={36}

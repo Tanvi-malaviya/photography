@@ -30,7 +30,7 @@ export default function Navbar() {
 
     {/* Icon */}
     <Image
-      src="/logo1.png"          // camera icon image
+      src="/icon.png"          // camera icon image
       alt="Lenscraft Logo"
       width={38}
       height={38}

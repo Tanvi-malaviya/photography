@@ -18,7 +18,7 @@ export const metadata = {
   title: "LENSCRAFT | Professional Photography Studio",
    icons: {
     icon: [
-      { url: "/logo1.png", type: "image/png" },
+      { url: "/icon.png", type: "image/png" },
     ],
   },
 };
